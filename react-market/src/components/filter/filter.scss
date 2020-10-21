@@ -9,6 +9,7 @@
 }
 .filterItem{
     margin-top: 21px;
+    height: 18px;
 }
 .filterName{
     margin-left: 40px;
@@ -20,6 +21,23 @@
 
 
     color: #000000;
+}
+.itemName{
+    float: left;
+    margin-left: 16px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+/* Gray 139 */
+
+color: #8B8B8B;
 }
 .clearButton > button{
     width: 241px;
@@ -49,47 +67,52 @@ summary::-webkit-details-marker {
 
 summary::after {
     background: #fff;
-    content: "\f107";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    transition: transform 0.2s;
+    content: url("/down.svg");
+
+    transition: transform 0.3s;
     will-change: transform;
     float:left;
-    color:#b798ff;
-    font-size: 26px;
     margin-right: 17px;
 }
 
 details[open] summary::after    {
-    transform: rotate(180deg);
-    color:#FFC000;
+    transform: rotate(360deg);
+    content: url("/up.svg");
 }
 
 
-.item > span{
-    margin-left:16px;
-}
 .option{
     display :block;
-    margin-bottom: 0.25em;
+
 
 }
 .check{
-    padding-left: 1.2em;
+    width: 205px;
+    float: left;
+    height:20px;
+    margin-bottom: 14px;
+}
+
+.check > span,p{
+    display: inline-block;
 }
 .checkBox{
-    position: absolute;
-    margin-left:-1.2em;
-    width: 1em;
-    height: 1em;
+    
+    width: 18px;
+    height: 18px;
     background: url("/nonechecked.svg");
+    float: left;
 }
 .checkInput{
-    position: absolute;
+    float: left;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
 .checkInput:checked + .checkBox{
     background: url("/checked.svg");
+ 
+}
+.checkInput:checked + .checkBox + .itemName  {
+    color: #000000;
 }

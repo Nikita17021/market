@@ -14,7 +14,21 @@ function Filter() {
                                 <label className='check option'>
                                     <input className="checkInput" type="checkbox" />
                                     <span className="checkBox"></span>
-                                    Улун
+                                    <span className="itemName">Уишаньский улун</span>
+                                </label>
+                            </li>
+                            <li className="item">
+                                <label className='check option'>
+                                    <input className="checkInput" type="checkbox" />
+                                    <span className="checkBox"></span>
+                                    <span className="itemName">Уишаньский улун</span>
+                                </label>
+                            </li>
+                            <li className="item">
+                                <label className='check option'>
+                                    <input className="checkInput" type="checkbox" />
+                                    <span className="checkBox"></span>
+                                    <span className="itemName">Уишаньский улун</span>
                                 </label>
                             </li>
                         </ul>
