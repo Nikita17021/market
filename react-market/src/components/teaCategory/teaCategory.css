@@ -1,0 +1,110 @@
+.teaCategory{
+    margin-left: 330px;
+    margin-top: 50px;
+    width: 1260px;
+    height: 390px;
+    margin-bottom:  50px;
+}
+.amount{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 4px;
+    margin-bottom: 13px;
+    float: left;
+    color: gray;
+}
+.categoryName > div{
+    display: inline-block;
+}
+.teaName{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    color: #000000;
+    float: left;
+}
+.teaBlock{
+    margin-top:25px;
+    float: left;
+    width: auto;
+    height: auto;
+    
+}
+.teaBlock > div{
+    display: inline-block;
+}
+.teaLink{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px; 
+    color: #927BC9;
+    margin-left:20px;
+    margin-top: 9px;
+    float: left;
+}
+.teaLink:hover{
+    text-decoration:underline  ;
+    text-decoration-color:#927BC9 ;
+    cursor: pointer;
+}
+.productsList{
+    float: left;
+    margin-top: 40px;
+  }
+  .product{
+    width: 285px;
+    height: 314px;
+    float: left;
+  }
+  .priceList{
+    display: inline-block;
+    width: 285px;
+    margin-top: 20px;
+  }
+  .priceList > div{
+    display:inline-block;
+  }
+  .price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .discount{
+    margin-left: 15px;
+  }
+  .discountPrice{
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
+  .lilShoppingCart{
+    margin-left: 18px;
+  }
+  .discountPercent{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    margin-left: 16px;
+    color: #FE0000;}
+  .description{
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;  
+  }
+  .marginForProducts{
+    margin-right: 40px;
+  }

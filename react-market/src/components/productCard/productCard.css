@@ -1,0 +1,191 @@
+.productCard{
+    width: 1260px;
+    height: 500px;
+    margin-left: 330px;
+    margin-top: 50px;
+    float: left;
+}
+.productCard > div{
+    display:inline-block;
+}
+.infoAboutProduct{
+    width: 490px;
+    float: left;
+    margin-left: 60px;
+    
+}
+.infoAboutProduct > div{
+    display: inline-block;
+}
+
+.productName{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+    float: left;
+    height: 120px;
+}
+.vendor{
+    float: left;
+    margin-top: 11px;
+    width: 490px;
+    height: 20px;
+}
+.vendorText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 8px;
+    color: #8B8B8B;
+}
+.vendorId{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+.priceInfo{
+    display: inline-block;
+    width: 490px;
+    height: 35px;
+    margin-top: 20px;
+  }
+  .priceInfo > div{
+    display:inline-block;
+  }
+  .productPrice{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .productDiscount{
+    margin-left: 15px;
+  }
+  .productDiscount{
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .productDiscountPrice{
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
+  .productDiscountPercent{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    margin-left: 16px;
+    color: #FE0000;
+}
+.buttonBasket > button{
+    width: 156px;
+    height: 49px;
+    background-color: #B798FF;
+    color:#fff;
+    border:none;
+}
+.addPack{
+    margin-left: 32px;
+}
+.addPackText{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #927BC9;
+}
+.packGramm{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+margin-left: 3px;
+
+color: #8B8B8B;
+}
+.addToBasket{
+    float: left;
+    margin-top: 20px;
+}
+.addToBasket > div{
+    display: inline-block;
+}
+.specification{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Gray 139 */
+
+color: #8B8B8B;
+}
+.teaDescription{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+margin-left: 20px;
+
+color: #000000;
+}
+.marginbottom16px{
+    margin-bottom: 10px;
+}
+.specifications{
+    text-align: center;
+    height: 130px;
+    width: 490px;
+    float: left;
+    margin-top: 46px;
+}
+.specifications > div{
+    display: inline-block;
+}
+.leftPartDescription{
+    width: 110px;
+    text-align: right;
+    float: left;
+}
+.rightPartDescription{
+    text-align: left;
+    float: left;
+}
+.productInput{
+    width: 45px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+/* Gray 168 */
+margin-left: 20px;
+margin-right: 5px;
+color: #A8A8A8;
+border: none;
+border-bottom: 1px solid #8B8B8B;
+}
+.productInput:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}

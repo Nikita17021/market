@@ -1,0 +1,31 @@
+.photoExamples{
+    width: 710px;
+    height: 500px;
+    float: left;
+}
+.otherImg{
+    margin-top: 20px;
+    float: left;
+}
+.otherImg > div {
+    display: inline-block;
+}
+.productCard > .mainProductImg{
+    width: 710px;
+    height: 392px;
+}
+.productImg{
+    width: 126px;
+    height: 70px;
+    float: left;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.mainProductImg{
+    width: 710px;
+    height: 392px;
+}
+.selectedImg{
+    opacity: 0.5;
+}

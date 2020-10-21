@@ -1,0 +1,97 @@
+.catalogActive{
+  width: 1260px;
+  height: 467px;
+  margin-left: 330px;
+  
+}
+.catalogActive > div{
+  display: inline-block;
+}
+.ulList{
+  list-style-type:none;
+  margin-left: 0px;
+  padding-inline-start: 0px;
+}
+.exampleList{
+  height:170px;
+  width: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+        
+  color: black;
+  height: 170px;
+  float: left;
+  margin-top: 36px;
+        
+}
+
+.rareList{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+height: 130px;
+/* identical to box height */
+float: left;
+/* Gray 139 */
+margin-left: 98px;
+margin-top: 36px;
+color: #8B8B8B;
+}
+.productsList{
+  float: left;
+  margin-top: 40px;
+  margin-left: 230px;
+}
+.product{
+  width: 285px;
+  height: 314px;
+  float: left;
+}
+.priceList{
+  display: inline-block;
+  width: 285px;
+}.priceList > div{
+  display:inline-block;
+}
+.price{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.discount{
+  margin-left: 15px;
+}
+.discountPrice{
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.lilShoppingCart{
+  margin-left: 18px;
+}
+.discountPercent{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  margin-left: 16px;
+  color: #FE0000;}
+.description{
+  display: inline-block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;  
+}
+.marginForProducts{
+  margin-right: 40px;
+}
