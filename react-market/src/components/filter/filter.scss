@@ -1,7 +1,7 @@
 .filter{
     width: 285px;
     height: 760px;
-    margin-top: 90px;
+    margin-top: 75px;
     background: #FFFFFF;
     border: 1px solid #F0F0F0;
     box-sizing: border-box;
@@ -25,19 +25,12 @@
 .itemName{
     float: left;
     margin-left: 16px;
-
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-/* identical to box height */
-
-
-/* Gray 139 */
-
-color: #8B8B8B;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8B8B8B;
 }
 .clearButton > button{
     width: 241px;
