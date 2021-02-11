@@ -1,10 +1,10 @@
 import React from 'react';
-import './search.css';
+import style from './search.module.scss';
 function Search() {
     return (
 
-<div className="search">
-   <div><input type="text" className="inputForm" placeholder="Поиск Товаров" aria-label="Поиск"/></div>
+<div className={style.search}>
+   <div><input type="text" className={style.inputForm} placeholder="Поиск Товаров" aria-label="Поиск"/></div>
 </div>
     )};
 export default Search;

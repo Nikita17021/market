@@ -1,0 +1,55 @@
+.products{
+    margin-top: 25px;
+    float: left;
+
+}
+.product{
+    width: 285px;
+    height: 314px;
+    float: left;
+}
+.marginForProducts{
+    margin-right: 40px;
+}
+
+.priceList{
+    display: inline-block;
+    width: 285px;
+    margin-top: 22px;
+  }.priceList > div{
+    display:inline-block;
+  }
+  .price{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .discount{
+    margin-left: 15px;
+  }
+  .discountPrice{
+    text-decoration: line-through;
+    text-decoration-color: red;
+  }
+  .lilShoppingCart{
+    margin-left: 18px;
+  }
+  .discountPercent{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    margin-left: 16px;
+    color: #FE0000;}
+  .description{
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;  
+  }

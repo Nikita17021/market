@@ -1,0 +1,374 @@
+.basket{
+    width: 1260px;
+    height: auto;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-top:30px;
+    margin-bottom: 60px;
+    float: left;
+}
+.basket >  div {
+    display: inline-block;
+}
+.orders {
+    float: left;
+    width: 935px;
+    height: auto;
+}
+.orders > div{
+    display: inline-block;
+}
+.basketNum{
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+.basketNum > p{
+  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    float: left;
+
+
+    color: #000000;
+}
+.basketNum > span {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+/* Gray 168 */
+
+color: #A8A8A8;
+}
+
+/* ORDERS*/
+.order {
+    width:935px;
+    height: 146px;
+    margin-bottom: 10px;
+    float: left;    
+}
+.orders > div {
+    display: inline-block;
+}
+.img{
+    width: 112px;
+    height: 94px;
+    margin-left: 31px;
+    margin-top:26px;
+    margin-bottom:26px;
+    margin-right: 26px;
+    float: left;
+
+}
+.description{
+    width: 360px;
+    height: 90px;
+    float: left;
+}
+.description > div {
+    display: inline-block;
+}
+.teaDescription > p{
+    width: 360px;
+    height: 40px;
+    float: left;
+}
+.price{
+    float: left;
+    height: 22px;
+    width:200px;
+    margin-top: 36px;
+    margin-bottom: 10px;
+}
+.weight{
+    margin-top: 60px;
+    float:left;
+}
+.weight > input {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #A8A8A8;
+
+    width: 40px;
+    height: 35px;
+    border: 1px solid #8B8B8B;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left:120px;
+    
+}
+.weight > p {
+    margin-left: 7px;
+ 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+}
+.cost{
+    float: left;
+    height: 28px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 20px;
+    margin-left: 76px;
+    margin-top: 70px;
+}
+.close{
+    float: left;
+    margin-top: 70px;
+    margin-left: 27px;
+}
+.close:hover{
+    cursor:pointer;
+}
+/* PRICE*/
+.price .realCost{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+.price .teaWeight{
+   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 3px;
+}
+.price .fakeCost {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    margin-left: 16px;
+}
+.price .discount{
+    margin-left: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FE0000;
+}
+/* FINAL COST + DISCOUNTS+ DELIVERY*/
+.finalCost{
+    float:left;
+    margin-left:343px;
+    width: 593px;
+    height: 293px;
+}
+.finalCost > div {
+    display: inline-block;
+}
+.firstPrice{
+    float: left;
+    width: auto;
+    margin-left: 312px;
+    margin-top: 11px;
+}
+.finalPrice{
+    margin-left: 379px;
+    margin-top: 38px;
+    float: left;
+}
+.comText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #8B8B8B;
+}
+.pricesNums{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 34px;
+margin-left: 26px;
+color: #C8C8C8;
+}
+.finalDiscount{
+    margin-left: 306px;
+    float: left;
+    margin-top: 20px;
+}
+.deliveryDiv{
+    float:left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.delivery{
+    
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+/* Link */
+
+color: #927BC9;
+}
+.address{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: right;
+
+color: #C8C8C8;}
+.finalText{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: right;
+
+color: #000000;
+}
+.finalNum{
+    margin-left: 26px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    
+    /* Brand 2 */
+    
+    color: #FFC000;
+}
+.freeDelivery{
+    margin-left: 230px;
+    float:left;
+}
+.freeDelivery > p{
+    font-family: Montserrat;
+font-style: italic;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+
+/* Gray 139 */
+
+color: #8B8B8B;
+margin-top: 23px;
+}
+
+
+
+
+/*CHECKOUT*/
+.checkout{
+    float: left;
+    width: 814px;
+    height: 335px;
+    margin-bottom: 60px;
+    
+}
+.checkout > div {
+    display: inline-block;
+}
+.checkoutName {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+float: left;
+
+color: #000000;
+}
+.deliveryForm{
+    margin-top: 26px;
+    width: 814px;
+    height: 335px;
+}
+.inputName > p {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+text-align: right;
+
+width: 133px;
+color: #A8A8A8;
+margin-right: 29px;
+}
+.name , .number,.addressToDelivery,.comment{
+    float: left;
+    width: 100%;
+}
+.number,.addressToDelivery,.comment,.buttonAccepted{margin-top: 20px;}
+.input > input{
+    border:none;
+    width: 652px;
+    height: 51px;
+}.input > input:focus{
+    border: 1px solid #ABEBB6;
+    box-sizing: border-box;
+    width: 652px;
+    height: 51px;
+}
+.buttonAccepted > button{
+    float: left;
+    border: 1px solid #B798FF;
+    margin-left: 189px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 141px;
+    height: 51px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+/* identical to box height */
+
+
+/* Gray 139 */
+
+    color: #8B8B8B;
+}
+/*BANNERS*/
+.banners{
+    float: right;
+    height: 800px;
+    width: 290px;
+    margin-top: 25px;
+}
+.banner2{
+    margin-top: 30px;
+}
