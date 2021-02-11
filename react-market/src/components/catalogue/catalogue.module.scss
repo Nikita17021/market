@@ -16,7 +16,7 @@
 }
 .productCatalog > div{
     display: inline-block; 
-}
+}   
 .products{margin-top: 20px;}
 .allProducts{
     font-family: Montserrat;
@@ -65,9 +65,42 @@ color: #8B8B8B;
     display: inline-block;
 }
 .filterBlock{
+    position:fixed ;
     float: left;
-    margin-left: 576px;
-    margin-top: 41px;
+    margin-top: 40px;
+    margin-left:576px;
+    width: auto;
+    height: 40px;
+}
+.description{
+    height: 50px;
+    width: 940px;
+}
+.description > div {
+    display: inline-block;
+}
+summary::-webkit-details-marker {
+    display: none
+}
+.summaryList{
+    background-color: #fff;
+    width: 250px;
+    height: 100px;
+}
+
+
+summary::after {
+    content: url("/down.svg");
+
+    transition: transform 0.3s;
+    will-change: transform;
+    float:left;
+    margin-right: 17px;
+}
+
+details[open] summary::after    {
+    transform: rotate(360deg);
+    content: url("/up.svg");
 }
 .item{
     font-family: Montserrat;
@@ -76,8 +109,9 @@ font-weight: normal;
 font-size: 16px;
 line-height: 20px;
 /* identical to box height */
-
+margin-top: 20px    ;
 
 color: #000000;
+margin-top: 14px;
 }
 

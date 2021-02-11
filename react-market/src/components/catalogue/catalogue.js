@@ -10,9 +10,10 @@ function Catalogue() {
         <div className={style.productCatalog}>
             <div className={style.description}>
                 <div className={style.amountBlock}><span className={style.allProducts}>Все товары</span><span className={style.amount}>85</span></div>
-                <div className={style.filterBlock}><details>
+                <div className={style.filterBlock}>
+                    <details>
                     <summary className={style.filterName}>По популярности</summary>
-                    <div>
+                    <div className={style.summaryList}>
                         <ul>
                             <li className={style.item}><span>По популярности</span></li>
                             <li className={style.item}><span>Дешевые</span></li>
