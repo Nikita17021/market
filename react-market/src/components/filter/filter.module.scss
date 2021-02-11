@@ -1,0 +1,117 @@
+.filter{
+    width: 285px;
+    height: 760px;
+    margin-top: 70px;
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    float: left;
+}
+.filterItem{
+    margin-top: 21px;
+    height: auto;
+    width: 250px;
+    float: left;
+}
+.filterName{
+    margin-left: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+
+    color: #000000;
+}
+
+
+.itemName{
+    float: left;
+    margin-left: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8B8B8B;
+}
+.clearButton > button{
+    width: 241px;
+    height: 55px;
+    border: 1px solid #B798FF;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 22px;
+    background-color: #fff;
+    color: #8B8B8B;
+    margin-top: 21px;
+}
+.clearButton > button,  
+button:focus {
+    outline: none;
+}
+.clearButton > button:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);;
+}
+summary::-webkit-details-marker {
+    display: none
+}
+
+summary::after {
+    background: #fff;
+    content: url("/down.svg");
+
+    transition: transform 0.3s;
+    will-change: transform;
+    float:left;
+    margin-right: 17px;
+}
+
+details[open] summary::after    {
+    transform: rotate(360deg);
+    content: url("/up.svg");
+    color: #FFC000; 
+}
+
+
+.option{
+    display :block;
+}
+.check{
+    width: 205px;
+    float: left;
+    height:20px;
+    margin-bottom: 14px;
+}
+
+.check > span,p{
+    display: inline-block;
+}
+.checkBox{
+    width: 18px;
+    height: 18px;
+    background: url("/nonechecked.svg");
+    float: left;
+}
+.checkInput{
+    float: left;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.checkInput:checked + .checkBox{
+    background: url("/checked.svg");
+ 
+}
+.checkInput:checked + .checkBox + .itemName  {
+    color: #000000;
+}
+.item{
+    width: auto;
+    height: auto;
+}

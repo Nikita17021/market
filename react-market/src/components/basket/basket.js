@@ -1,10 +1,10 @@
 import React from 'react';
-import './basket.css';
+import style from './basket.module.scss';
 function Basket() {
     return (
-        <div className="basket">
-            <div className="shoppingCart"><img src="./Shoppingcart.svg"></img></div>
-            <div className="things"><p>15</p></div>
+        <div className={style.basket}>
+            <div className={style.shoppingCart}><img src="./Shoppingcart.svg"></img></div>
+            <div className={style.things}><p>15</p></div>
         </div>
     )};
 export default Basket;

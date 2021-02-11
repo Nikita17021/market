@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../header/header'
+import Header from '../Header/header'
 import Footer from '../footer/footer.js'
 import TeaCategory from '../teaCategory/teaCategory.js'
 import ProductCard from '../productCard/productCard'

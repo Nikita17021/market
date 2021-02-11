@@ -1,0 +1,34 @@
+.search {
+    width: 175px;
+    margin-top: 41px;
+    float: left;
+    margin-top: 39px;
+    margin-left: 65px;
+}
+.search > div{
+    display:inline-block;
+}
+.inputForm{
+    border: none;
+    border-bottom: 1px solid #8B8B8B;
+}
+.inputForm:focus{
+    
+    outline:none;
+    
+}
+.inputForm::placeholder{
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    /* Gray 168 */
+    
+    color: #A8A8A8;
+    
+}
