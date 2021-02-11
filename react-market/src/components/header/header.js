@@ -7,7 +7,6 @@ function Header() {
   return (
     
     <div className={style.containerFluid} id={style.header}>
-        <div className={style.headerContainer}>
         <div className={style.headerGrid}>
             <div className={style.headerLogo}>
                 <span><img src="./Logo.svg"/></span>
@@ -24,7 +23,6 @@ function Header() {
             <div className={style.delivery}><div><p>Доставка и оплата</p></div></div>
             <Search/>
             <Basket/>
-        </div>
         </div>
     </div>
 

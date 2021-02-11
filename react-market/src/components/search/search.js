@@ -4,7 +4,7 @@ function Search() {
     return (
 
 <div className={style.search}>
-   <div><input type="text" className={style.inputForm} placeholder="Поиск Товаров" aria-label="Поиск"/></div>
+   <input type="text" className={style.inputForm} placeholder="Поиск Товаров" aria-label="Поиск"/>
 </div>
     )};
 export default Search;

@@ -1,0 +1,105 @@
+.footer{
+width: 100%;
+height: 186px;
+left: 0px;
+top: 100%;
+float: left;
+overflow: hidden;
+background: #F0F0F0;
+}
+li{list-style-type: none;}
+.column{
+    float: left;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+.column > div {
+    display: inline-block;
+}
+
+.firstColumn{
+
+  
+float: left;
+width: 245px;
+height: auto;
+margin-top:52px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+ul{
+    padding-inline-start: 0px;
+}
+.thirdColumn > ul > li {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+
+/* Gray 168 */
+
+color: #A8A8A8;
+}
+.secondColumn{
+    float: left;
+    width: 177px;
+    height: auto;
+    margin-top:52px;
+    margin-left: 77px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.thirdColumn{
+
+    float: left;
+
+width: 614px;
+height: 90px;
+margin-top:46px;
+margin-left: 73px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #000000;
+}
+
+.fourthColumn{
+    float: left;
+    margin-left: 45px;
+    margin-top:50px;
+}
+.fifthColumn span{
+    margin-bottom:0px;
+}
+.columnURL{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+/* Link */
+
+color: #927BC9;
+}
