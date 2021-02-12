@@ -13,6 +13,12 @@ li{list-style-type: none;}
     margin-left: 330px;
     margin-right: 330px;
 }
+@media screen and (max-width: 1366px) {
+    .column{
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+}
 .column > div {
     display: inline-block;
 }

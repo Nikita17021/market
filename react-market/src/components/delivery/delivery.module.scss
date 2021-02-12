@@ -1,0 +1,175 @@
+.deliveryInfo{
+    width: 1260px;
+    height: auto;
+    margin-left: 33px;
+    margin-right: 33px;
+    margin-top:32px ;
+}
+.deliveryDesc {
+    width: 100%;
+    height: 32px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.delivery > div {
+    display: inline-block;
+}
+.block2 {
+    margin-right: 36px;
+    margin-bottom: 17px;
+    width: 612px;
+    height: auto;
+    margin-top: 5px;
+}
+.block4 {
+    width: 612px;
+    height: auto;
+}
+.block4 > img {
+    margin-bottom: 10px;
+}
+.block {
+    margin-bottom: 17px;
+    margin-top: 5px;
+    width: 612px;
+    height: auto;
+}
+.email {
+    width: 1260px;
+    height: 192px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.emailText {
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 134px;
+    transform: translate(40px, -195px);
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 30px;
+/* identical to box height, or 100% */
+
+
+color: #FFFFFF;
+}
+.sub > button {
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 134px;
+    border: none;
+    width: 157px;
+    height: 51px;
+    color: white;
+    background: #B798FF;
+    transform: translate(155px, -195px);
+    font-family: Montserrat;
+}
+.input > input {
+    position: absolute;
+    width: 250px;
+    height: 51px;
+    font-family: Montserrat;
+    background-color: white;
+    border: none;
+    margin-top: 79px;
+    margin-left: 134px;
+    transform: translate(-120px, -195px);
+    font-family: Montserrat;
+    padding-left: 25px;
+}
+.payBlock {
+    width: 413px;
+    height: 532px;
+    float: left;
+    margin-top: 4px;
+    box-shadow: 0px 3px 84px rgba(0, 0, 0, 0.07);
+}
+
+.payBlock2 {
+    width: 401px;
+    height: 516px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 26px;
+    box-shadow: 0px 3px 84px rgba(0, 0, 0, 0.07);
+}
+
+.payBlock3 {
+    box-shadow: 0px 3px 84px rgba(0, 0, 0, 0.07);
+    margin-top: 14px;
+    width: 393px;
+    height: 522px;
+    float: left;
+    margin-left: 27px;
+}
+.pay {
+    margin-top: 50px;
+    width: 1260px;
+    height: auto;
+}
+.pay > div {
+    display: inline-block;
+}
+.payInfo{
+    margin-left: 44px;
+    margin-top: 38px;
+}
+.payInfo > span {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.payInfo > p {
+    margin-top: 12px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+
+color: #000000;
+}
+.blocks > span {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+margin-top: 5px;
+
+color: #000000;
+
+}
+.blocks > p {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+
+color: #000000;
+
+}
